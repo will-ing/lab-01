@@ -1,0 +1,70 @@
+body{
+  height: 767px;
+  width: 480px;
+  margin: 0px;
+}
+
+header{
+  height: 10%
+}
+
+#first{
+  height: 150px;
+}
+
+section{
+  height: 125px;
+  
+}
+
+div section{
+  width: 235px;
+  height: 250px;
+  display: inline-block;
+}
+
+footer {
+  height: 80px;
+}
+
+@media (min-width: 480px) {
+  body{
+    height: 768px;
+    width: 960px;
+    margin: 0px;
+    
+  }
+  
+  header{
+    height: 100px;
+  }
+  
+  #first{
+    height: 600px;
+    width: 200px;
+    float: left;
+  }
+  
+  section{
+    height: 200px;
+    width: 375px;
+    display: inline-block;
+  }
+  
+  div{
+    display: inline;
+  }
+
+
+  div section{
+    width: 184px;
+    height: 250px;
+    display: inline-block;
+  }
+  
+  footer {
+    height: 150px;
+  }
+
+
+}
