@@ -1,0 +1,91 @@
+header{
+  background-color: blue;
+}
+
+#first{
+  background-color: brown;
+}
+
+
+section:nth-of-type(2){
+  background-color: yellow;
+}
+
+section:nth-of-type(3){
+  background-color: chartreuse;
+}
+
+section:nth-child(2){
+  background-color: cornflowerblue;
+}
+
+section:nth-child(1){
+  background-color: aqua;
+}
+
+footer{
+  background-color: violet;
+}
+
+@media (min-width: 480px){
+  header{
+    background-color: yellow;
+  }
+  
+  #first{
+    background-color: rgb(59, 32, 32);
+  }
+  
+  
+  section:nth-of-type(2){
+    background-color: aqua;
+  }
+  
+  section:nth-of-type(3){
+    background-color: chartreuse;
+  }
+  
+  section:nth-child(2){
+    background-color: cornflowerblue;
+  }
+  
+  section:nth-child(1){
+    background-color: tomato;
+  }
+  
+  footer{
+    background-color: teal;
+  }
+}
+
+
+@media (min-width: 960px){
+  header{
+    background-color: greenyellow;
+  }
+  
+  #first{
+    background-color: rgba(79, 146, 129, 0.52);
+  }
+  
+  
+  section:nth-of-type(2){
+    background-color: rgb(209, 38, 195);
+  }
+  
+  section:nth-of-type(3){
+    background-color: rgb(142, 146, 120);
+  }
+  
+  section:nth-child(2){
+    background-color: rgb(9, 58, 122);
+  }
+  
+  section:nth-child(1){
+    background-color: rgb(91, 134, 134);
+  }
+  
+  footer{
+    background-color: rgb(230, 200, 225);
+  }
+}
